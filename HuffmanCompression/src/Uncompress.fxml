@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="628.0" fitWidth="900.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/uncomp.png" />
+         </image>
+      </ImageView>
+      <ToolBar prefHeight="45.0" prefWidth="900.0">
+        <items>
+          <Button mnemonicParsing="false" text="Back" />
+        </items>
+      </ToolBar>
+      <JFXButton layoutX="136.0" layoutY="298.0" prefHeight="38.0" prefWidth="140.0" style="-fx-border-color: white;" text="Uncompress" textFill="WHITE" />
+      <JFXTextField layoutX="78.0" layoutY="242.0" prefHeight="31.0" prefWidth="256.0" style="-fx-border-color: white;" />
+      <JFXTextArea layoutX="538.0" layoutY="157.0" prefHeight="236.0" prefWidth="339.0" style="-fx-border-color: white;" />
+      <Label contentDisplay="CENTER" layoutX="537.0" layoutY="115.0" prefHeight="21.0" prefWidth="339.0" style="-fx-border-color: white;" text="                     Your Uncompressed Text" textFill="WHITE" />
+      <Label contentDisplay="CENTER" layoutX="77.0" layoutY="198.0" prefHeight="23.0" prefWidth="256.0" style="-fx-border-color: white;" text="                        File Name" textFill="WHITE" />
+   </children>
+</AnchorPane>

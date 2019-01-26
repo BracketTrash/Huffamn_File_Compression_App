@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="900.0" style="-fx-background-color: #00ace6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="573.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/menupic.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="147.0" layoutY="52.0" text="Huffman File Compression Program" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="147.0" layoutY="407.0" prefHeight="55.0" prefWidth="134.0" style="-fx-background-color: ##00ace6;" text="Compress" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="619.0" layoutY="407.0" prefHeight="55.0" prefWidth="134.0" style="-fx-background-color: ##00ace6;" text="Uncompress" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

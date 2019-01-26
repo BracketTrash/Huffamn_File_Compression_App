@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="900.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="687.0" fitWidth="900.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/compPic.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="322.0" layoutY="66.0" prefHeight="53.0" prefWidth="256.0" text="Compress Here" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="63.0" layoutY="244.0" prefHeight="31.0" prefWidth="256.0" style="-fx-border-color: white;" />
+      <JFXButton layoutX="147.0" layoutY="292.0" style="-fx-border-color: white;" text="Compress" textFill="WHITE" />
+      <JFXTextArea layoutX="551.0" layoutY="168.0" prefHeight="236.0" prefWidth="339.0" style="-fx-border-color: white;" />
+      <Label alignment="CENTER" layoutX="551.0" layoutY="130.0" prefHeight="23.0" prefWidth="339.0" style="-fx-border-color: white;" text="Your Compressed Text" textFill="WHITE" />
+      <ToolBar prefHeight="45.0" prefWidth="900.0">
+        <items>
+          <Button mnemonicParsing="false" text="Button" />
+        </items>
+      </ToolBar>
+      <Label contentDisplay="CENTER" layoutX="62.0" layoutY="206.0" prefHeight="21.0" prefWidth="256.0" style="-fx-border-color: white;" text="                   Your FileName" textFill="WHITE" />
+   </children>
+</AnchorPane>
